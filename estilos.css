@@ -1,0 +1,61 @@
+body {
+    background: rgb(212, 212, 212);
+    margin: 0px;
+}
+header , .main, footer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+
+}
+header nav {
+    background: steelblue;
+    overflow:hidden;
+}
+header nav ul{
+    list-style: none;
+    margin: 0px;
+}
+header nav ul li{
+    float: left;
+    margin: 0px;
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration:none;
+}
+header nav ul li a:hover {
+    background: rgb(158, 200, 224);
+
+}
+
+
+.main .articles {
+    width: 68.5%;
+    float: left;
+    margin-right: 1.5%;
+}
+.main .articles article {
+        background: rgb(255, 255, 255);
+        padding: 20px;
+        margin-bottom: 20px;
+      
+}
+
+aside {
+    width: 30%;
+    background-color: goldenrod;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    clear: both;
+    padding: 10px 10px;
+    text-align: center;
+}
